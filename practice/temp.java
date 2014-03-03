@@ -89,6 +89,7 @@ public class QRS {
  
     public static int[] QRS(float[] lowPass, int nsamp) {
         int[] QRS = new int[nsamp];
+        
  
         double treshold = 0;
  
